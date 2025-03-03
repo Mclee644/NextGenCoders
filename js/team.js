@@ -1,32 +1,32 @@
 const team = [
   {
     id: 1,
-    name: "Caleb",
+    name: "Francis",
     role: "Project Manager",
   },
   {
     id: 2,
     name: "Bright Mensah Obeng",
-    role: "Front-end Developer & Web Designer",
+    role: "Frontend Developer",
   },
   {
     id: 3,
-    name: "Richard",
-    role: "Front-end Developer",
+    name: "Shadrack",
+    role: "Frontend Developer",
   },
   {
     id: 4,
-    name: "Stephan",
-    role: "Web Designer",
+    name: "Caleb",
+    role: "Backend Developer",
   },
   {
     id: 5,
-    name: "Stephan x",
-    role: "Web Designer",
+    name: "Louisa",
+    role: "content writer",
   },
   {
     id: 6,
-    name: "Stephan y",
+    name: "Emmanuel",
     role: "Web Designer",
   },
 ];
