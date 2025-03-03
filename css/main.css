@@ -8,10 +8,42 @@ a {
 }
 .container {
   display: flex;
+  width: 1366px;
+}
+.btn {
+  padding-inline: 25px;
+  padding-block: 2px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
 }
 nav {
+  padding-inline: 10px;
+  padding-block: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 1px 3px #000000;
 }
-
+nav .nav-title {
+  width: 30%;
+}
+nav .nav-controls {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+nav .nav-controls .search {
+  width: 40%;
+  border-radius: 10px;
+  border: 2px groove #bbbbbb;
+  display: flex;
+  place-content: center;
+  place-items: center;
+  padding-inline: 8px;
+  padding-block: 1.5px;
+}
 footer {
   display: grid;
 }
