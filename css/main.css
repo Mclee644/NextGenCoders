@@ -11,7 +11,8 @@ ul {
 }
 .container {
   display: flex;
-  width: 1366px;
+  max-width: 1366px;
+  width: 100%;
 }
 .btn {
   padding-inline: 25px;
@@ -21,6 +22,7 @@ ul {
   background-color: #000000;
   color: #ffffff;
 }
+/*nav start*/
 nav {
   padding-inline: 10px;
   padding-block: 10px;
@@ -28,6 +30,7 @@ nav {
   display: flex;
   justify-content: space-between;
   box-shadow: 0 1px 3px #000000;
+  font-size: 20px;
 }
 nav .nav-title {
   width: 30%;
@@ -47,11 +50,41 @@ nav .nav-controls .search {
   padding-inline: 8px;
   padding-block: 1.5px;
 }
+/*nav end*/
+/*hero start*/
+#hero {
+  height: 600px;
+  position: relative;
+  place-items: center;
+  place-content: center;
+}
+#hero > .hero-content {
+  position: absolute;
+  color: #ffffff;
+}
+#hero::after {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #111111;
+}
+#hero > img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+
+/*hero end*/
+/*footer start*/
 footer {
   width: 100%;
   display: grid;
   grid-template-columns: 3fr 1fr 1fr;
   background-image: linear-gradient(45deg, #333333, #222222, #111111);
+  color: #ffffff;
+  padding-inline: 10px;
+  padding-block: 10px;
 }
 footer .socials {
   display: flex;
@@ -59,3 +92,4 @@ footer .socials {
 footer a {
   color: #ffffff;
 }
+/*footer end*/
