@@ -118,6 +118,17 @@ nav .nav-controls .search {
   padding-block: 8px;
 }
 /*most learned content end*/
+/*comments start*/
+#testimonials {
+  flex-direction: column;
+  min-height: 400px;
+  padding-block: 10px;
+  padding-inline: 80px;
+}
+#testimonials .comments {
+  display: none;
+}
+/*comments end*/
 /*footer start*/
 footer {
   width: 100%;
