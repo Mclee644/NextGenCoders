@@ -90,6 +90,7 @@ nav .btn-group {
 }
 #hero::after {
   content: "";
+  width: 100px;
   top: 0;
   left: 0;
   position: absolute;
@@ -178,8 +179,23 @@ nav .btn-group {
   font-size: 15px;
   font-weight: 100;
 }
-
 /*comments end*/
+/*Brands start*/
+#brands {
+  background-color: rebeccapurple;
+  min-height: 50px;
+  padding-inline: 30px;
+  padding-block: 10px;
+}
+#brands > div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#brands > div > img {
+  width: 80px;
+}
+/*Brands end*/
 /*footer start*/
 footer {
   width: 100%;
