@@ -182,7 +182,6 @@ nav .btn-group {
 /*comments end*/
 /*Brands start*/
 #brands {
-  background-color: rebeccapurple;
   min-height: 50px;
   padding-inline: 30px;
   padding-block: 10px;
@@ -203,13 +202,45 @@ footer {
   grid-template-columns: 3fr 1fr 1fr;
   background-image: linear-gradient(45deg, #333333, #222222, #111111);
   color: #ffffff;
-  padding-inline: 10px;
-  padding-block: 10px;
+  padding-inline: 15px;
+  padding-block: 50px;
+}
+footer .footer-title {
+  font-family: 900;
+  font-size: 30px;
 }
 footer .socials {
-  display: flex;
+  width: 400px;
+  overflow: hidden;
+  height: 50px;
+  margin-top: 20px;
 }
-footer a {
+
+footer .socials > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: inherit;
   color: #ffffff;
+  padding-inline: 20px;
+}
+footer img {
+  width: 40px;
+  background-color: #ffffff;
+  object-fit: contain;
+  border-radius: 10px;
+}
+footer .footer-about > h3,
+footer .footer-legal > h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+footer .footer-about > ul,
+footer .footer-legal > ul {
+  margin-top: 10px;
+}
+footer .footer-about > ul > li > a,
+footer .footer-legal > ul > li > a {
+  color: #ffffff;
+  font-size: 25px;
 }
 /*footer end*/
