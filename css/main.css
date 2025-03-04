@@ -20,8 +20,9 @@ input:focus {
 }
 .container {
   display: flex;
-  max-width: 1366px;
+  max-width: 1920px;
   width: 100%;
+  margin-inline: auto;
 }
 .btn {
   padding-inline: 25px;
