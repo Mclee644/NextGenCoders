@@ -9,6 +9,15 @@ a {
 ul {
   list-style-type: none;
 }
+input {
+  outline: none;
+}
+input:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+input:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+}
 .container {
   display: flex;
   max-width: 1366px;
@@ -16,11 +25,17 @@ ul {
 }
 .btn {
   padding-inline: 25px;
-  padding-block: 2px;
+  padding-block: 5px;
   border: none;
   border-radius: 5px;
   background-color: #000000;
   color: #ffffff;
+  font-size: 15px;
+}
+.btn-o {
+  background-color: #ffffff;
+  color: #222222;
+  border: 1px groove #222222;
 }
 /*nav start*/
 nav {
@@ -33,22 +48,32 @@ nav {
   font-size: 20px;
 }
 nav .nav-title {
-  width: 30%;
+  width: 20%;
+  color: #444444;
+  font-weight: 600;
+  font-size: 25px;
 }
+
 nav .nav-controls {
-  width: 70%;
+  width: 80%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
+}
+nav .nav-controls a {
+  color: #444444;
 }
 nav .nav-controls .search {
-  width: 40%;
+  width: 60%;
   border-radius: 10px;
-  border: 2px groove #bbbbbb;
+  border: 1px groove #bbbbbb;
+  padding-inline: 10px;
+  padding-block: 5px;
+  font-size: 15px;
+}
+
+nav .btn-group {
+  width: 10%;
   display: flex;
-  place-content: center;
-  place-items: center;
-  padding-inline: 8px;
-  padding-block: 1.5px;
 }
 /*nav end*/
 /*hero start*/
@@ -61,6 +86,7 @@ nav .nav-controls .search {
 #hero > .hero-content {
   position: absolute;
   color: #ffffff;
+  width: 300px;
 }
 #hero::after {
   content: "";
