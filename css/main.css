@@ -39,7 +39,7 @@ input:focus {
 }
 /*nav start*/
 nav {
-  padding-inline: 10px;
+  padding-inline: 15px;
   padding-block: 10px;
   width: 100%;
   display: flex;
@@ -74,11 +74,12 @@ nav .nav-controls .search {
 nav .btn-group {
   width: 10%;
   display: flex;
+  justify-content: space-between;
 }
 /*nav end*/
 /*hero start*/
 #hero {
-  height: 600px;
+  height: 550px;
   position: relative;
   place-items: center;
   place-content: center;
@@ -109,6 +110,7 @@ nav .btn-group {
   min-height: 400px;
   padding-block: 10px;
   padding-inline: 80px;
+  margin-top: 20px;
 }
 #mlc > .title,
 #testimonials .title {
@@ -152,6 +154,7 @@ nav .btn-group {
   min-height: 400px;
   padding-block: 10px;
   padding-inline: 80px;
+  margin-top: 20px;
 }
 #testimonials > .comments {
   display: grid;
@@ -161,7 +164,7 @@ nav .btn-group {
 }
 #testimonials > .comments > .comment {
   width: 350px;
-  height: 250px;
+  height: 300px;
   padding-inline: 20px;
   padding-block: 10px;
   box-shadow: 1px 1px 2px #444444, -1px 0px 2px #444444;
