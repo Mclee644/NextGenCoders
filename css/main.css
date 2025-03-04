@@ -125,9 +125,33 @@ nav .nav-controls .search {
   padding-block: 10px;
   padding-inline: 80px;
 }
-#testimonials .comments {
-  display: none;
+#testimonials > .comments {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 100px;
+  margin-top: 20px;
 }
+#testimonials > .comments > .comment {
+  width: 250px;
+  height: 200px;
+  background-color: coral;
+  padding-inline: 10px;
+  padding-block: 10px;
+  box-shadow: 1px 1px 2px #444444, -1px 0px 2px #444444;
+}
+#testimonials > .comments > .comment > img {
+  width: 30px;
+}
+#testimonials > .comments > .comment > .message {
+  margin-top: 10px;
+}
+#testimonials > .comments > .comment > .recommendation {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 100;
+}
+
 /*comments end*/
 /*footer start*/
 footer {
