@@ -83,7 +83,8 @@ nav .nav-controls .search {
   padding-block: 10px;
   padding-inline: 80px;
 }
-#mlc > .title {
+#mlc > .title,
+#testimonials .title {
   font-weight: 600;
   font-size: 30px;
 }
@@ -128,14 +129,13 @@ nav .nav-controls .search {
 #testimonials > .comments {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 100px;
+  column-gap: 50px;
   margin-top: 20px;
 }
 #testimonials > .comments > .comment {
-  width: 250px;
-  height: 200px;
-  background-color: coral;
-  padding-inline: 10px;
+  width: 350px;
+  height: 250px;
+  padding-inline: 20px;
   padding-block: 10px;
   box-shadow: 1px 1px 2px #444444, -1px 0px 2px #444444;
 }
@@ -144,10 +144,11 @@ nav .nav-controls .search {
 }
 #testimonials > .comments > .comment > .message {
   margin-top: 10px;
+  font-size: 25px;
 }
 #testimonials > .comments > .comment > .recommendation {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 15px;
   font-weight: 100;
 }
